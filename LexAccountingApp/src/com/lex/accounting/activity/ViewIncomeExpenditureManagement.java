@@ -33,7 +33,6 @@ public class ViewIncomeExpenditureManagement extends BaseView implements OnSaveC
 		super(context);
 		mFlag = postion;
 		initView();
-		
 	}
 
 	@Override
