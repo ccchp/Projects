@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:layout_marginBottom="2dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/tag_search"
+            android:layout_weight="4" />
+
+        <Button
+            android:id="@+id/searchDatePickerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_weight="1" />
+    </LinearLayout>
+	<HorizontalScrollView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <LinearLayout 
+	        android:layout_width="900dip" 
+			android:layout_height="wrap_content"
+	        android:orientation="vertical">
+	        <View android:layout_width="match_parent" android:layout_height="1px" android:background="@android:color/white"/>
+		    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+		            <View android:layout_width="1px" android:layout_height="match_parent" android:background="@android:color/white"/>
+		            <TextView android:text="@string/tag_number" android:layout_width="30dip" android:singleLine="true" android:gravity="center_horizontal"/>
+		            <View android:layout_width="1px" android:layout_height="match_parent" android:background="@android:color/white"/>
+		            <TextView android:text="@string/tag_data" android:layout_width="120dip" android:singleLine="true" android:gravity="center_horizontal"/>
+		            <View android:layout_width="1px" android:layout_height="match_parent" android:background="@android:color/white"/>
+		            <TextView android:text="@string/tag_category" android:layout_width="120dip" android:singleLine="true" android:gravity="center_horizontal"/>
+		            <View android:layout_width="1px" android:layout_height="match_parent" android:background="@android:color/white"/>
+		            <TextView android:id="@+id/payeeTv" android:text="@string/tag_payee" android:layout_width="120dip" android:singleLine="true" android:gravity="center_horizontal"/>
+		            <View android:layout_width="1px" android:layout_height="match_parent" android:background="@android:color/white"/>
+		            <TextView android:text="@string/tag_money" android:layout_width="120dip" android:singleLine="true" android:gravity="center_horizontal"/>
+		            <View android:layout_width="1px" android:layout_height="match_parent" android:background="@android:color/white"/>
+		            <TextView android:text="@string/tag_account" android:layout_width="120dip" android:singleLine="true" android:gravity="center_horizontal"/>
+		            <View android:layout_width="1px" android:layout_height="match_parent" android:background="@android:color/white"/>
+		            <TextView android:text="@string/tag_comment" android:layout_width="270dip" android:singleLine="true" android:gravity="center_horizontal"/>
+		    </TableLayout>
+		    <View android:layout_width="match_parent" android:layout_height="1px" android:background="@android:color/white"/>
+		    <ListView
+		        android:id="@+id/horizon_listview"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:dividerHeight="1px"
+		        android:divider="@android:color/white"
+		        android:scrollbars="none" >
+		    </ListView>
+		</LinearLayout>
+	</HorizontalScrollView>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="dataPickerTitle">请选择日期</string>
+    
+    <string name="notice_accout_null">目前没有账户，请点击增加添加新账户</string>
+</resources>

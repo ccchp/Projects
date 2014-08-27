@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category id="100" >
+	<expenditure name="支出">
+	    <parent name="餐饮" >
+	        <sub>早餐</sub>
+	        <sub>午餐</sub>
+	        <sub>晚餐</sub>
+	        <sub>夜宵</sub>
+	        <sub>水果</sub>
+	        <sub>零食</sub>
+	        <sub>买菜</sub>
+	        <sub>柴米油盐</sub>
+	        <sub>餐饮其它</sub>
+	    </parent>
+	
+	    <parent name="交通" >
+	        <sub>打的</sub>
+	        <sub>公交地铁</sub>
+	        <sub>停车费</sub>
+	        <sub>加油</sub>
+	        <sub>过路过桥</sub>
+	        <sub>罚款赔偿</sub>
+	        <sub>保养维修</sub>
+	        <sub>火车</sub>
+	        <sub>车款车贷</sub>
+	        <sub>航空</sub>
+	        <sub>船舶</sub>
+	        <sub>自行车</sub>
+	        <sub>交通其它</sub>
+	    </parent>
+	
+	    <parent name="购物" >
+	        <sub>数码产品</sub>
+	        <sub>化妆护肤</sub>
+	        <sub>首饰</sub>
+	        <sub>研究</sub>
+	        <sub>电器</sub>
+	        <sub>家具</sub>
+	        <sub>书籍报刊</sub>
+	        <sub>玩具</sub>
+	        <sub>摄影文印</sub>
+	        <sub>保健品</sub>
+	        <sub>购物其它</sub>
+	    </parent>
+	
+	    <parent name="娱乐" >
+	        <sub>卡拉OK</sub>
+	        <sub>电影电视</sub>
+	        <sub>网游电玩</sub>
+	        <sub>运动健身</sub>
+	        <sub>洗浴足浴</sub>
+	        <sub>茶酒咖啡</sub>
+	        <sub>旅游度假</sub>
+	        <sub>歌舞演出</sub>
+	        <sub>娱乐其它</sub>
+	    </parent>
+	
+	    <parent name="医教" >
+	        <sub>求医买药</sub>
+	        <sub>培训考试</sub>
+	        <sub>学杂教材</sub>
+	        <sub>家教补习</sub>
+	        <sub>助学贷款</sub>
+	        <sub>医教其它</sub>
+	    </parent>
+	
+	    <parent name="居家" >
+	        <sub>美容美发</sub>
+	        <sub>手机电话</sub>
+	        <sub>宽带</sub>
+	        <sub>房款房贷</sub>
+	        <sub>水电燃气</sub>
+	        <sub>物业</sub>
+	        <sub>住宿房租</sub>
+	        <sub>保险费</sub>
+	        <sub>消费贷款</sub>
+	        <sub>税费</sub>
+	        <sub>材料建材</sub>
+	        <sub>家政服务</sub>
+	        <sub>快递邮政</sub>
+	        <sub>家居其它</sub>
+	    </parent>
+	
+	    <parent name="投资" >
+	        <sub>证券期货</sub>
+	        <sub>保险</sub>
+	        <sub>外汇</sub>
+	        <sub>出资</sub>
+	        <sub>黄金实物</sub>
+	        <sub>书画艺术</sub>
+	        <sub>投资贷款</sub>
+	        <sub>投资其它</sub>
+	    </parent>
+	
+	    <parent name="人情" >
+	        <sub>礼金</sub>
+	        <sub>物品</sub>
+	        <sub>慈善捐款</sub>
+	        <sub>代付款</sub>
+	        <sub>人情其它</sub>
+	    </parent>
+	</expenditure>
+</category>

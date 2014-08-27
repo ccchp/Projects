@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10dip"
+                android:text="@string/tag_data" />
+
+            <Button
+                android:id="@+id/data_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:singleLine="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/payee_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10dip"
+                android:text="@string/tag_payee" />
+
+            <Button
+                android:id="@+id/user_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:singleLine="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10dip"
+                android:text="@string/tag_category" />
+
+            <Button
+                android:id="@+id/category_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:singleLine="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10dip"
+                android:text="@string/tag_money" />
+
+            <EditText
+                android:id="@+id/money_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:hint="@string/zero"
+                android:inputType="numberDecimal"
+                android:singleLine="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10dip"
+                android:text="@string/tag_account" />
+
+            <Button
+                android:id="@+id/account_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:singleLine="true" />
+        </TableRow>
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/comments_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tag_comments"
+        android:singleLine="true" />
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="2dip" -->
+<!--         android:layout_marginBottom="2dip" -->
+<!--         android:orientation="horizontal" > -->
+
+<!--         <Button -->
+<!--             android:id="@+id/searchBtn" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:text="@string/tag_search" -->
+<!--             android:layout_weight="4" /> -->
+
+<!--         <Button -->
+<!--             android:id="@+id/searchDatePickerBtn" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_weight="1" /> -->
+<!--     </LinearLayout> -->
+
+    <include layout="@layout/view_account_layout" />
+
+</LinearLayout>
