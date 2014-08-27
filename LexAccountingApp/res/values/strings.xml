@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">LexAccountingApp</string>
+    
+    <string name="md__drawerOpenIndicatorDesc">Close drawer</string>
+    <string name="md__drawerClosedIndicatorDesc">Open drawer</string>
+    
+    <string name="zero">0</string>
+    <string name="tag_comments">备注…</string>
+    <string name="tag_comment">备注</string>
+    <string name="tag_number">编号</string>
+    <string name="tag_data">日期</string>
+    <string name="tag_payee">收款人</string>
+    <string name="tag_drawee">付款人</string>
+    <string name="tag_category">分类</string>
+    <string name="tag_money">金额</string>
+    <string name="tag_account">账户</string>
+    <string name="tag_search">搜索</string>
+    <string name="tag_save">保存</string>
+    <string name="tag_add_category">增加新类…</string>
+    <string name="tag_borrower">借款人</string>
+    <string name="tag_lend">借给</string>
+    <string name="tag_borrwo_money">借入金额</string>
+    <string name="tag_have_paid">已还金额</string>
+    <string name="tag_lend_money">借出金额</string>
+    <string name="tag_have_back">已回收金额</string>
+    <string name="tag_back_time">预计回收日期</string>
+    
+    
+    <string name="title_expenditure">支出</string>
+    <string name="title_income">收入</string>
+    <string name="title_accout">账户</string>
+    
+    <string name="title_account_tranfer">账户转账</string>
+    
+    <string name="title_income_category">收入类别</string>
+    <string name="title_expenditure_category">支出类别</string>
+    
+    <string name="title_borrowing_management">借入管理</string>
+    <string name="title_loan_management">借出管理</string>
+    
+    <string name="title_flow_statement">流水报表</string>
+    <string name="title_classification_statement">分类报表</string>
+    <string name="title_personal_statement">人员报表</string>
+    
+    <string name="title_budgit_management">预算管理</string>
+    
+    <string name="title_system_setting">系统设置</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="900dip"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <View android:layout_width="1px" android:layout_height="match_parent" android:background="@android:color/white"/>
+    <TextView
+        android:id="@+id/numberTv"
+        android:layout_width="30dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="@string/tag_number" />
+	<View android:layout_width="1px" android:layout_height="match_parent" android:background="@android:color/white"/>
+    <TextView
+        android:id="@+id/dateTv"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="@string/tag_data" />
+	<View android:layout_width="1px" android:layout_height="match_parent" android:background="@android:color/white"/>
+    <TextView
+        android:id="@+id/categoryTv"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="@string/tag_category" />
+	<View android:layout_width="1px" android:layout_height="match_parent" android:background="@android:color/white"/>
+    <TextView
+        android:id="@+id/payeeTv"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="@string/tag_payee" />
+	<View android:layout_width="1px" android:layout_height="match_parent" android:background="@android:color/white"/>
+    <TextView
+        android:id="@+id/moneyTv"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="@string/tag_money" />
+	<View android:layout_width="1px" android:layout_height="match_parent" android:background="@android:color/white"/>
+    <TextView
+        android:id="@+id/accountTv"
+        android:layout_width="120dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="@string/tag_account" />
+	<View android:layout_width="1px" android:layout_height="match_parent" android:background="@android:color/white"/>
+    <TextView
+        android:id="@+id/commentsTv"
+        android:layout_width="270dip"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:text="@string/tag_comment" />
+</LinearLayout>

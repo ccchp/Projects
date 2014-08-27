@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- The default background of the menu. -->
+    <color name="md__defaultBackground">#FF555555</color>
+    <color name="blue">#4876FF</color>
+    <color name="white">#FFFFFFFF</color>
+
+</resources>

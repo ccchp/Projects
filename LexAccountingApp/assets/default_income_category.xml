@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<category id="200" >
+    <income name="收入">
+        <parent name="固定收入">
+            <sub>工资</sub>
+            <sub>奖金</sub>
+            <sub>分红</sub>
+            <sub>其它</sub>
+        </parent>
+        <parent name="额外收入">
+            <sub>礼金</sub>
+            <sub>利息</sub>
+            <sub>报销款</sub>
+            <sub>其它</sub>
+        </parent>
+    </income>
+</category>
