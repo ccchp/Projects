@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="14.0" >
+
+    <RelativeLayout
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.5"
+        android:background="#ffffffff" >
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#ff80c142"
+            android:text="@string/select_head"
+            android:textSize="24.0sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ffebebeb" />
+
+    <GridView
+        android:id="@+id/girdview"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_weight="10.5"
+        android:horizontalSpacing="5.0dip"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:verticalSpacing="5.0dip" >
+    </GridView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ffebebeb" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="2.0" >
+
+        <TextView
+            android:id="@+id/choose_head"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dip"
+            android:gravity="center"
+            android:background="@drawable/btn_selector"
+            android:text="@string/choose_head_fromalbum"
+            android:textColor="#ffffffff"
+            android:textSize="18.0dip" />
+    </RelativeLayout>
+
+</LinearLayout>

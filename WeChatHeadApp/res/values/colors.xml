@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="crop_outline_color">#ff959595</color>
+    <color name="transparent">#00000000</color>
+    <color name="btn_unpressed">#ff80c142</color>
+    <color name="btn_pressed">#ff9a9a9a</color>
+    <color name="back_unpressed">#ffffffff</color>
+    <color name="back_pressed">#fff2f2f3</color>
+</resources>

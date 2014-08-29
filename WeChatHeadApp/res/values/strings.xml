@@ -3,5 +3,14 @@
     <string name="app_name">WeChatHeadApp</string>
     <string name="splash_into">立即开始</string>
     <string name="splash_info">你是否深陷于“新消息+1不点会死”的烦躁\n有种点死TA的冲动!\n你是否认识那个处女座的TA,想帮TA一把…\n你是否苦于无法反击,不知道怎么制作新(FAN)消(SI)息(REN)头像?\n\n点击下面的按钮开始吧！</string>
+    <string name="input_info">数字或字母不能超过2个字符，文字不能超过1个字符</string>
+    <string name="not_null">输入文字不能为空</string>
+    <string name="input_text">输入文字</string>
 
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="select_head">选择头像</string>
+    <string name="choose_head_fromalbum">从相册中选择头像</string>
+    <string name="back_to">返回</string>
+    <string name="saveAndshare">保存并分享</string>
 </resources>
