@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExecutorServiceDemo</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="fix_thread_pool">fix thread pool</string>
+    <string name="single_schedule_thread_pool">single schedule thread pool</string>
+    <string name="schedule_thread_pool">schedule thread pool</string>
+    <string name="single_thread_pool">single thread pool</string>
+    <string name="cache_thread_pool">cache thread pool</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MVPDemo/MVPDemo.iml" filepath="$PROJECT_DIR$/MVPDemo/MVPDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyPractise.iml" filepath="$PROJECT_DIR$/MyPractise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animaitondemo/animaitondemo.iml" filepath="$PROJECT_DIR$/animaitondemo/animaitondemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/executorservicedemo/executorservicedemo.iml" filepath="$PROJECT_DIR$/executorservicedemo/executorservicedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hybriddemo/hybriddemo.iml" filepath="$PROJECT_DIR$/hybriddemo/hybriddemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recycleviewdemo/recycleviewdemo.iml" filepath="$PROJECT_DIR$/recycleviewdemo/recycleviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxandroiddemo/rxandroiddemo.iml" filepath="$PROJECT_DIR$/rxandroiddemo/rxandroiddemo.iml" />
+    </modules>
+  </component>
+</project>

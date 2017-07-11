@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportHeight="100"
+    android:viewportWidth="100">
+    <!--<path-->
+        <!--android:name="circle"-->
+        <!--android:fillColor="#ffff00"-->
+        <!--android:strokeWidth="2"-->
+        <!--android:strokeColor="@android:color/holo_green_dark"-->
+        <!--android:pathData="M5,5 A 30,20 0 1 1 5 5.00001" />-->
+
+    <path
+        android:name="circle"
+        android:fillColor="#ffff00"
+        android:strokeWidth="2"
+        android:strokeColor="@android:color/holo_green_dark"
+        android:pathData="M40,50
+                            A30,30 0 1 1 40,110
+                            A30,30 0 1 1 40,50" />
+    <!--M50,10-->
+    <!--A40,40 0 1 1 50,90-->
+    <!--A40,40 0 1 1 50,10-->
+
+    <!--<path-->
+        <!--android:name="path1"-->
+        <!--android:strokeColor="@color/colorAccent"-->
+        <!--android:strokeWidth="5"-->
+        <!--android:strokeLineCap="round"-->
+        <!--android:pathData="M 20,80-->
+                          <!--L 50,80 80,80 " />-->
+    <!--<path-->
+        <!--android:name="path2"-->
+        <!--android:strokeColor="@color/colorAccent"-->
+        <!--android:strokeWidth="5"-->
+        <!--android:strokeLineCap="round"-->
+        <!--android:pathData="M 20,20-->
+                          <!--L 50,20 80,20" />-->
+</vector>
